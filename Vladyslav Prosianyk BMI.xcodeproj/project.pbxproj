@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30570CA82718A2E900E3E810 /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30570CA72718A2E900E3E810 /* AssemblyBuilder.swift */; };
+		30570CAA2718A43000E3E810 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30570CA92718A43000E3E810 /* Router.swift */; };
+		30570CAE2718AAAF00E3E810 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30570CAC2718AAAF00E3E810 /* HomeView.swift */; };
+		30570CAF2718AAAF00E3E810 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30570CAD2718AAAF00E3E810 /* HomeView.xib */; };
 		30578E61271886ED003761F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30578E60271886ED003761F7 /* AppDelegate.swift */; };
 		30578E63271886ED003761F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30578E62271886ED003761F7 /* SceneDelegate.swift */; };
 		30578E68271886ED003761F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30578E66271886ED003761F7 /* Main.storyboard */; };
 		30578E6A271886EF003761F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30578E69271886EF003761F7 /* Assets.xcassets */; };
 		30578E6D271886EF003761F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30578E6B271886EF003761F7 /* LaunchScreen.storyboard */; };
 		30578E7C27188F71003761F7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30578E7B27188F71003761F7 /* .gitignore */; };
+		30578E7F271890AE003761F7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30578E7D271890AE003761F7 /* SplashView.swift */; };
+		30578E80271890AE003761F7 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30578E7E271890AE003761F7 /* SplashView.xib */; };
+		305D0EDB2718C04000AFD992 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D0ED92718C04000AFD992 /* ResultView.swift */; };
+		305D0EDC2718C04000AFD992 /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 305D0EDA2718C04000AFD992 /* ResultView.xib */; };
+		305D0EDF2718C93F00AFD992 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D0EDE2718C93F00AFD992 /* UIColor+Extension.swift */; };
+		305D0EE12718CB8E00AFD992 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D0EE02718CB8E00AFD992 /* UIView+Extension.swift */; };
+		305D0EE32718D37E00AFD992 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D0EE22718D37E00AFD992 /* UITextField+Extension.swift */; };
+		305D0EE527196CFC00AFD992 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D0EE427196CFC00AFD992 /* UIViewController+Extension.swift */; };
+		305D0EE72719B6C800AFD992 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D0EE62719B6C800AFD992 /* String+Extension.swift */; };
+		9D26542780E5ACFAF1477D84 /* Pods_Vladyslav_Prosianyk_BMI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF6A1DBE0E8A5C13036316A /* Pods_Vladyslav_Prosianyk_BMI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30570CA72718A2E900E3E810 /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
+		30570CA92718A43000E3E810 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		30570CAC2718AAAF00E3E810 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30570CAD2718AAAF00E3E810 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		30578E5D271886ED003761F7 /* Vladyslav Prosianyk BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vladyslav Prosianyk BMI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30578E60271886ED003761F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30578E62271886ED003761F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,18 @@
 		30578E6C271886EF003761F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30578E6E271886EF003761F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30578E7B27188F71003761F7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		30578E7D271890AE003761F7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		30578E7E271890AE003761F7 /* SplashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		305D0ED92718C04000AFD992 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		305D0EDA2718C04000AFD992 /* ResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultView.xib; sourceTree = "<group>"; };
+		305D0EDE2718C93F00AFD992 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		305D0EE02718CB8E00AFD992 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		305D0EE22718D37E00AFD992 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		305D0EE427196CFC00AFD992 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		305D0EE62719B6C800AFD992 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		98AB6BD2B3F49124EA094C21 /* Pods-Vladyslav Prosianyk BMI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vladyslav Prosianyk BMI.release.xcconfig"; path = "Target Support Files/Pods-Vladyslav Prosianyk BMI/Pods-Vladyslav Prosianyk BMI.release.xcconfig"; sourceTree = "<group>"; };
+		EBF6A1DBE0E8A5C13036316A /* Pods_Vladyslav_Prosianyk_BMI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vladyslav_Prosianyk_BMI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1217069BEDE66669F18ECDB /* Pods-Vladyslav Prosianyk BMI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vladyslav Prosianyk BMI.debug.xcconfig"; path = "Target Support Files/Pods-Vladyslav Prosianyk BMI/Pods-Vladyslav Prosianyk BMI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D26542780E5ACFAF1477D84 /* Pods_Vladyslav_Prosianyk_BMI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253E5155BF226D65A0336B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A1DBE0E8A5C13036316A /* Pods_Vladyslav_Prosianyk_BMI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30570CAB2718AA9600E3E810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30570CAC2718AAAF00E3E810 /* HomeView.swift */,
+				30570CAD2718AAAF00E3E810 /* HomeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		30578E54271886ED003761F7 = {
 			isa = PBXGroup;
 			children = (
+				30578E7B27188F71003761F7 /* .gitignore */,
 				30578E5F271886ED003761F7 /* Vladyslav Prosianyk BMI */,
 				30578E5E271886ED003761F7 /* Products */,
+				4A04D022B3DF7B9FE5548793 /* Pods */,
+				253E5155BF226D65A0336B3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,14 +107,15 @@
 		30578E5F271886ED003761F7 /* Vladyslav Prosianyk BMI */ = {
 			isa = PBXGroup;
 			children = (
+				305D0EDD2718C92600AFD992 /* Extensions */,
 				30578E60271886ED003761F7 /* AppDelegate.swift */,
 				30578E62271886ED003761F7 /* SceneDelegate.swift */,
+				30578E81271890E4003761F7 /* Navigation */,
 				30578E7427188723003761F7 /* Modules */,
 				30578E66271886ED003761F7 /* Main.storyboard */,
 				30578E69271886EF003761F7 /* Assets.xcassets */,
 				30578E6B271886EF003761F7 /* LaunchScreen.storyboard */,
 				30578E6E271886EF003761F7 /* Info.plist */,
-				30578E7B27188F71003761F7 /* .gitignore */,
 			);
 			path = "Vladyslav Prosianyk BMI";
 			sourceTree = "<group>";
@@ -81,7 +133,7 @@
 		30578E752718872C003761F7 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				30578E782718875A003761F7 /* New Group */,
+				30578E782718875A003761F7 /* View */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -89,6 +141,7 @@
 		30578E7627188733003761F7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				30570CAB2718AA9600E3E810 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -96,15 +149,57 @@
 		30578E7727188747003761F7 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				305D0ED82718C02900AFD992 /* View */,
 			);
 			path = Result;
 			sourceTree = "<group>";
 		};
-		30578E782718875A003761F7 /* New Group */ = {
+		30578E782718875A003761F7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				30578E7D271890AE003761F7 /* SplashView.swift */,
+				30578E7E271890AE003761F7 /* SplashView.xib */,
 			);
-			path = "New Group";
+			path = View;
+			sourceTree = "<group>";
+		};
+		30578E81271890E4003761F7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				30570CA72718A2E900E3E810 /* AssemblyBuilder.swift */,
+				30570CA92718A43000E3E810 /* Router.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		305D0ED82718C02900AFD992 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				305D0ED92718C04000AFD992 /* ResultView.swift */,
+				305D0EDA2718C04000AFD992 /* ResultView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		305D0EDD2718C92600AFD992 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				305D0EDE2718C93F00AFD992 /* UIColor+Extension.swift */,
+				305D0EE02718CB8E00AFD992 /* UIView+Extension.swift */,
+				305D0EE22718D37E00AFD992 /* UITextField+Extension.swift */,
+				305D0EE427196CFC00AFD992 /* UIViewController+Extension.swift */,
+				305D0EE62719B6C800AFD992 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A04D022B3DF7B9FE5548793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1217069BEDE66669F18ECDB /* Pods-Vladyslav Prosianyk BMI.debug.xcconfig */,
+				98AB6BD2B3F49124EA094C21 /* Pods-Vladyslav Prosianyk BMI.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30578E71271886EF003761F7 /* Build configuration list for PBXNativeTarget "Vladyslav Prosianyk BMI" */;
 			buildPhases = (
+				ECFB6D21FC337F3C613B67EB /* [CP] Check Pods Manifest.lock */,
 				30578E59271886ED003761F7 /* Sources */,
 				30578E5A271886ED003761F7 /* Frameworks */,
 				30578E5B271886ED003761F7 /* Resources */,
+				91A764B89D564E6D556D05B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,13 +263,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				30578E7C27188F71003761F7 /* .gitignore in Resources */,
+				30578E80271890AE003761F7 /* SplashView.xib in Resources */,
 				30578E6D271886EF003761F7 /* LaunchScreen.storyboard in Resources */,
 				30578E6A271886EF003761F7 /* Assets.xcassets in Resources */,
 				30578E68271886ED003761F7 /* Main.storyboard in Resources */,
+				30570CAF2718AAAF00E3E810 /* HomeView.xib in Resources */,
+				305D0EDC2718C04000AFD992 /* ResultView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91A764B89D564E6D556D05B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vladyslav Prosianyk BMI/Pods-Vladyslav Prosianyk BMI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vladyslav Prosianyk BMI/Pods-Vladyslav Prosianyk BMI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vladyslav Prosianyk BMI/Pods-Vladyslav Prosianyk BMI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFB6D21FC337F3C613B67EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vladyslav Prosianyk BMI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30578E59271886ED003761F7 /* Sources */ = {
@@ -180,7 +322,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				30578E61271886ED003761F7 /* AppDelegate.swift in Sources */,
+				305D0EE527196CFC00AFD992 /* UIViewController+Extension.swift in Sources */,
 				30578E63271886ED003761F7 /* SceneDelegate.swift in Sources */,
+				30570CAA2718A43000E3E810 /* Router.swift in Sources */,
+				305D0EE72719B6C800AFD992 /* String+Extension.swift in Sources */,
+				305D0EE12718CB8E00AFD992 /* UIView+Extension.swift in Sources */,
+				30570CAE2718AAAF00E3E810 /* HomeView.swift in Sources */,
+				305D0EE32718D37E00AFD992 /* UITextField+Extension.swift in Sources */,
+				30578E7F271890AE003761F7 /* SplashView.swift in Sources */,
+				305D0EDB2718C04000AFD992 /* ResultView.swift in Sources */,
+				30570CA82718A2E900E3E810 /* AssemblyBuilder.swift in Sources */,
+				305D0EDF2718C93F00AFD992 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +476,7 @@
 		};
 		30578E72271886EF003761F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1217069BEDE66669F18ECDB /* Pods-Vladyslav Prosianyk BMI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,12 +485,13 @@
 				DEVELOPMENT_TEAM = 4UTH3CG74D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Vladyslav Prosianyk BMI/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,6 +507,7 @@
 		};
 		30578E73271886EF003761F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AB6BD2B3F49124EA094C21 /* Pods-Vladyslav Prosianyk BMI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,12 +516,13 @@
 				DEVELOPMENT_TEAM = 4UTH3CG74D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Vladyslav Prosianyk BMI/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
